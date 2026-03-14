@@ -1,0 +1,146 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'android';
+    src: url('pacote-projeto-d010/fontes/idroid.otf') format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+header {
+    text-align: center;
+    background-image: linear-gradient(rgb(83, 230, 83), rgb(25, 110, 25));
+    padding: 10px;
+    margin: 10px;
+}
+
+header > h1{
+    color: white;
+    font-weight: bold;
+}
+
+header > p {
+    color: white;
+    font-weight: lighter;
+}
+
+nav {
+    text-align: left;
+    padding: 10px;
+    
+    
+}
+
+body {
+    background-color: rgb(132, 223, 132);
+}
+
+body > p {
+    text-align: justify;
+}
+
+
+
+main {
+    background-color: white;
+}
+
+main > h1 {
+    font-family: 'android';
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+}
+
+main > p {
+    text-align: justify;
+    text-indent: 25px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.marcacao {
+    font-family: 'android';
+    font-size: 20px;
+    background-image: linear-gradient(to right, rgba(50, 205, 50, 0.507), white);
+    padding: 10px;
+}
+
+
+.links > a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.links > a:hover {
+    color: rgb(197, 197, 197);
+    text-decoration: underline;
+}
+
+.imagem {
+    width: 50%;
+}
+div#droid {
+    width: 40%;
+}
+
+footer {
+    background-color: white;
+    text-align: justify;
+    text-indent: 25px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 60px;
+}
+
+.rodape {
+    background-color: #77e285;
+    padding: 10px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(54, 143, 54);
+}
+
+.rodape > h3{
+    background-color: rgba(37, 197, 90, 0.658);
+    margin: 10px;
+    text-align: center;
+    color: white;
+    padding: 10px 10px 10px 10px;
+}
+
+.video {
+    padding: 5px 5px 5px 5px;
+    margin: 5px;
+    background-color: green;
+    text-align: center;
+    width: 100%;
+    outline-width: 1px;
+    border-style: solid;
+    border-color: #06470e;
+}
+
+.marca {
+    font-weight: bold;
+    color: black;
+    background-image: linear-gradient(to right, rgba(83, 230, 83, 0.589), rgba(185, 245, 185, 0.404));
+}
+
+.marca > a {
+    text-decoration: none;
+    color: black;
+}
+
+.marca > a:hover {
+    background-image: linear-gradient(to right, rgba(83, 230, 83, 0.589), rgba(185, 245, 185, 0.404));
+}
