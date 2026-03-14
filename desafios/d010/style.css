@@ -1,13 +1,18 @@
 @charset "UTF-8";
 @font-face {
-    font-family: 'android';
-    src: url('pacote-projeto-d010/fontes/idroid.otf') format(opentype);
+    font-family: 'Android';
+    src: url('fontes/idroid.otf') format(opentype);
     font-weight: normal;
     font-style: normal;
 }
 
 :root {
-    --cor0: rgb(132, 223, 132)
+    --cor0: rgb(132, 223, 132);
+    --cor1: rgb(83, 230, 83);
+    --cor2: rgb(54, 143, 54);
+    --cor3: rgb(25, 110, 25);
+    --cor4: rgb(9, 46, 9);
+    --fonte-android: 'Android', cursive;
     
 }
 
@@ -58,7 +63,7 @@ main {
 }
 
 main > h1 {
-    font-family: 'android';
+    font-family: 'Android';
     font-size: 25px;
     padding: 10px;
     text-align: center;
@@ -81,14 +86,17 @@ main > p {
 
 .links > a {
     text-decoration: none;
-    color: white;
+    color: var(--cor1);
     padding: 10px;
+    transition-duration: 0.5s;
 }
 
 .links > a:hover {
-    color: rgb(197, 197, 197);
+    color: var(--cor1);
     text-decoration: underline;
-    background-image: linear-gradient(to right rgb(83, 230, 83), rgb(25, 110, 25));
+    background-color: var(--cor3);
+    box-shadow: inset 1px 1px 5px black;
+
 }
 
 .imagem {
